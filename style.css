@@ -1,0 +1,40 @@
+form {
+    width: 40%;
+}
+
+label {
+    display: block;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 10px 0 5px 0;
+}
+
+input {
+    width: 100%;
+    padding: 5px;
+    border: 2px solid black;
+    font-size: 1em;
+    box-sizing: border-box;
+}
+
+input::placeholder {
+    color: rgba(0,0,0,0.4);
+}
+
+input.erro {
+    border-color: rgb(190, 34, 34);
+}
+
+input.valido {
+    border-color: rgb(44, 180, 44);
+}
+
+.erro-texto{
+    display: none;
+    color: rgb(190, 34, 34);
+    font-family: sans-serif;
+}
+
+.erro-texto.ativar{
+    display: block;
+}
