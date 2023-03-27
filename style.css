@@ -9,6 +9,7 @@ html,body{
 
 body{
     position: relative;
+    background-color: black;
 }
 
 h1,
@@ -30,7 +31,10 @@ h3{
 }
 
 form{
+    width: 70%;
+    height: 2in;
     padding: 3% 2%;
+    margin: auto auto;
 }
 
 label {
@@ -95,6 +99,7 @@ input.valido {
     border-radius: 4px;
     width: 30%;
     z-index: 1;
+    background-color: rgba(26,26,26,0.9);
 }
 
 .ilustr{
@@ -102,6 +107,7 @@ input.valido {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    object-position: -18rem;
     z-index: -100;
 }
 
